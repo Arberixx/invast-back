@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_plans_features",
+  "info": {
+    "displayName": "plansFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "available": {
+      "type": "boolean"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "opacity": {
+      "type": "integer"
+    }
+  }
+}

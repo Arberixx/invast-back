@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "tokenized_pages",
+  "info": {
+    "singularName": "tokenized-page",
+    "pluralName": "tokenized-pages",
+    "displayName": "TokenizedPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroText": {
+      "type": "string"
+    },
+    "iconTitleText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-title-text"
+    },
+    "whyChooseUsTagline": {
+      "type": "string"
+    },
+    "whyChooseUsTitle": {
+      "type": "string"
+    },
+    "whyChooseUsText": {
+      "type": "string"
+    },
+    "iconNumberTitleText": {
+      "displayName": "iconNumberTitleText",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-number-title-text"
+    },
+    "processTagline": {
+      "type": "string"
+    },
+    "processTitle": {
+      "type": "string"
+    },
+    "heroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

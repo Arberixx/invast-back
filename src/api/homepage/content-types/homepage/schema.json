@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroText": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "counters": {
+      "displayName": "counter",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.counter"
+    },
+    "rwaText": {
+      "type": "string"
+    },
+    "howitworksTagline": {
+      "type": "string"
+    },
+    "howitworksText": {
+      "type": "string"
+    },
+    "counterText": {
+      "type": "string"
+    }
+  }
+}

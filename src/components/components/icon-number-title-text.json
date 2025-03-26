@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_icon_number_title_texts",
+  "info": {
+    "displayName": "iconNumberTitleText"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "number": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

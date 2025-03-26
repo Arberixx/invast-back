@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_number_title_texts",
+  "info": {
+    "displayName": "numberTitleText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

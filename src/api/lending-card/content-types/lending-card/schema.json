@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "lending_cards",
+  "info": {
+    "singularName": "lending-card",
+    "pluralName": "lending-cards",
+    "displayName": "LendingCard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tagline": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "bullets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.title-text"
+    },
+    "button": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

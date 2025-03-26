@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "lending_pages",
+  "info": {
+    "singularName": "lending-page",
+    "pluralName": "lending-pages",
+    "displayName": "LendingPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroText": {
+      "type": "string"
+    },
+    "heroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "borrowerTitle": {
+      "type": "string"
+    },
+    "borrowerText": {
+      "type": "string"
+    },
+    "borrowerCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.title-text"
+    },
+    "borrowerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "lenderTitle": {
+      "type": "string"
+    },
+    "lenderText": {
+      "type": "string"
+    },
+    "lenderCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-title-text"
+    }
+  }
+}
