@@ -32,9 +32,9 @@ module.exports = {
         `${message}`;
 
       const emailMessage = {
-        from: 'info@besimmulaj.com',
-        to: `info@besimmulaj.com`,
-        subject: "Contact form from Besim Mulaj Website",
+        from: 'invastcoinform@gmail.com',
+        to: `selminlekovic@gmail.com`,
+        subject: "Contact form from Invast Coin Website",
         text: emailText,
       };
 
