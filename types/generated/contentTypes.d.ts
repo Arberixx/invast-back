@@ -833,7 +833,7 @@ export interface ApiAboutpageAboutpage extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    heroText: Attribute.String;
+    heroText: Attribute.Text;
     heroTagline: Attribute.String;
     teamText: Attribute.String;
     teamMember: Attribute.Component<'components.team-member', true>;
