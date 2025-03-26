@@ -1139,6 +1139,7 @@ export interface ApiPlanPlan extends Schema.CollectionType {
     buttonHover: Attribute.String;
     features: Attribute.Component<'components.plans-features', true>;
     text: Attribute.String;
+    buttonLink: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1241,6 +1242,7 @@ export interface ApiPropertyProperty extends Schema.CollectionType {
     image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     content: Attribute.Blocks;
     slug: Attribute.UID<'api::property.property', 'title'>;
+    buttonLink: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -38,6 +38,9 @@
     },
     "text": {
       "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
     }
   }
 }
