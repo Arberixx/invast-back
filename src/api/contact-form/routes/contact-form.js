@@ -5,11 +5,7 @@ module.exports = {
             handler: "api::contact-form.contact-form.sendForm",
             path: "/contact"
         },
-        {
-          method: "POST",
-          handler: "api::contact-form.contact-form.sendResult",
-          path: "/sendResult"
-      },
+       
 
     ]
 }
