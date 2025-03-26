@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "number": {
-      "type": "integer"
+      "type": "decimal"
     },
     "suffix": {
       "type": "string"

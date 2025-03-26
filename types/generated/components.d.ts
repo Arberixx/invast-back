@@ -82,7 +82,7 @@ export interface ComponentsCounter extends Schema.Component {
     description: '';
   };
   attributes: {
-    number: Attribute.Integer;
+    number: Attribute.Decimal;
     suffix: Attribute.String;
     category: Attribute.String;
     text: Attribute.Text;
